@@ -23,6 +23,6 @@ public class MathDoer {
 
 	public static int doMaths() {
 		int i;
-		return (i=(i=(i=(i=(i=(i=(1+5*100/20%2+42*56-25))*i)*i)*i)*i)*i)+100*73-1;
+		return (i=(i=(i=(i=(i=(i=(1+5*100/20%2+42*56-25))*i)*i)*i)*i)*i)+100*73-1%1;
 	}
 }
