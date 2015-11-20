@@ -22,6 +22,7 @@ package net.imagej.trouble.hidden;
 public class MathDoer {
 
 	public static int doMaths() {
-		return 1+5*100/20%2+42*56-25;
+		int i;
+		return (i=(i=(1+5*100/20%2+42*56-25))*i);
 	}
 }
