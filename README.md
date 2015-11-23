@@ -1,7 +1,7 @@
 # ImageJ-Troubleshooting
 An interactive toy repository to demonstrate troubleshooting techniques.
 
-Intended for use with a [companion guide](http://imagej.net/Troubleshooting_for_Developers).
+Intended for use with a [companion guide](http://imagej.net/Debugging_Exercises).
 
 ## Source code structure
 
