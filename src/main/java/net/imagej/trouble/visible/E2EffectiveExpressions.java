@@ -49,8 +49,7 @@ public class E2EffectiveExpressions {
 			// The fact that this method is already doing input validation makes
 			// debugging very easy.
 			// The next line of code will only be executed if a problem is detected,
-			// so it's
-			// a great place to set a breakpoint.
+			// so it's a great place to set a breakpoint.
 			throw new IllegalArgumentException(
 				"If you don't mind, I would prefer not to process your object...");
 		}
