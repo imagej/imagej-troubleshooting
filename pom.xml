@@ -15,28 +15,12 @@
 	<name>ImageJ Troubleshooting</name>
 	<description>A toy repository for practicing troubleshooting techniques described in a companion guide.</description>
 	<url>http://imagej.net/Troubleshooting_Guide</url>
-
 	<licenses>
 		<license>
 			<name>Creative Commons License</name>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-
-	<scm>
-		<connection>scm:git:git://github.com/imagej/imagej-troubleshooting</connection>
-		<developerConnection>scm:git:git@github.com:imagej/imagej-troubleshooting</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/imagej/imagej-troubleshooting</url>
-	</scm>
-	<issueManagement>
-		<system>GitHub Issues</system>
-		<url>https://github.com/imagej/imagej-troubleshooting/issues</url>
-	</issueManagement>
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/ImageJ-troubleshooting/</url>
-	</ciManagement>
 
 	<developers>
 		<developer>
@@ -61,20 +45,20 @@
 		</contributor>
 	</contributors>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>cc0</licenseName>
-					<licenseResolver>${project.baseUri}/license</licenseResolver>
-					<projectName>ImageJ interactive debugging tutorials.</projectName>
-					<organizationName>Board of Regents of the University of Wisconsin-Madison</organizationName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+	<scm>
+		<connection>scm:git:git://github.com/imagej/imagej-troubleshooting</connection>
+		<developerConnection>scm:git:git@github.com:imagej/imagej-troubleshooting</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imagej/imagej-troubleshooting</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagej/imagej-troubleshooting/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/ImageJ-troubleshooting/</url>
+	</ciManagement>
 
 	<repositories>
 		<repository>
@@ -97,4 +81,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<configuration>
+					<licenseName>cc0</licenseName>
+					<licenseResolver>${project.baseUri}/license</licenseResolver>
+					<projectName>ImageJ interactive debugging tutorials.</projectName>
+					<organizationName>Board of Regents of the University of Wisconsin-Madison</organizationName>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
