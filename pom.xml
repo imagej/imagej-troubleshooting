@@ -3,18 +3,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>net.imagej</groupId>
-		<artifactId>pom-imagej</artifactId>
-		<version>13.2.0</version>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>12.0.0</version>
 		<relativePath />
 	</parent>
 
+	<groupId>net.imagej</groupId>
 	<artifactId>imagej-troubleshooting</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
 	<name>ImageJ Troubleshooting</name>
 	<description>A toy repository for practicing troubleshooting techniques described in a companion guide.</description>
 	<url>http://imagej.net/Troubleshooting_Guide</url>
+	<inceptionYear>2009</inceptionYear>
+	<organization>
+		<name>ImageJ</name>
+		<url>http://imagej.net/</url>
+	</organization>
 	<licenses>
 		<license>
 			<name>Creative Commons License</name>
@@ -45,6 +51,13 @@
 		</contributor>
 	</contributors>
 
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+
 	<scm>
 		<connection>scm:git:git://github.com/imagej/imagej-troubleshooting</connection>
 		<developerConnection>scm:git:git@github.com:imagej/imagej-troubleshooting</developerConnection>
@@ -59,6 +72,14 @@
 		<system>Jenkins</system>
 		<url>http://jenkins.imagej.net/job/ImageJ-troubleshooting/</url>
 	</ciManagement>
+
+	<properties>
+		<package-name>net.imagej.trouble.hidden</package-name>
+		<license.licenseName>cc0</license.licenseName>
+		<license.copyrightOwners>Board of Regents of the University of
+Wisconsin-Madison.</license.copyrightOwners>
+		<license.projectName>ImageJ interactive debugging tutorials.</license.projectName>
+	</properties>
 
 	<repositories>
 		<repository>
