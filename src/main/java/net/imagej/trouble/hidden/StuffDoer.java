@@ -2,7 +2,8 @@
  * #%L
  * ImageJ interactive debugging tutorials.
  * %%
- * Copyright (C) 2009 - 2015 Board of Regents of the University of Wisconsin-Madison
+ * Copyright (C) 2009 - 2016 Board of Regents of the University of
+ * Wisconsin-Madison.
  * %%
  * To the extent possible under law, the ImageJ developers have waived
  * all copyright and related or neighboring rights to this tutorial code.
