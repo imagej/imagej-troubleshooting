@@ -102,19 +102,4 @@ Wisconsin-Madison.</license.copyrightOwners>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<licenseName>cc0</licenseName>
-					<licenseResolver>${project.baseUri}/license</licenseResolver>
-					<projectName>ImageJ interactive debugging tutorials.</projectName>
-					<organizationName>Board of Regents of the University of Wisconsin-Madison</organizationName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
