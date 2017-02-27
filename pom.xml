@@ -69,8 +69,8 @@
 		<url>https://github.com/imagej/imagej-troubleshooting/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/ImageJ-troubleshooting/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/imagej/imagej-troubleshooting</url>
 	</ciManagement>
 
 	<properties>
