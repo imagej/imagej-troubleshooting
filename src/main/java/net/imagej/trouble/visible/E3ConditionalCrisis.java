@@ -22,7 +22,7 @@ import net.imagej.trouble.hidden.ObjectMaker;
  * Exercise 3: Using conditional breakpoints to avoid unnecessary debugging
  * steps.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E3ConditionalCrisis {
 

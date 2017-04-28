@@ -24,7 +24,7 @@ import net.imagej.trouble.hidden.NotALoop;
  * Exercise 6: Identifying the location of problematic code when applications
  * quit unexpectedly and/or silently.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 @Plugin(type = Command.class,
 	menuPath = "Plugins>Troubleshooting>E6 - Start Looping")

@@ -22,7 +22,7 @@ import org.scijava.thread.ThreadService;
  * Exercise 9: Multithreaded environments where the act of debugging itself
  * introduces errors.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E9MultithreadedMadness {
 

@@ -23,7 +23,7 @@ import java.util.Set;
 /**
  * STOP LOOKING AT THIS CLASS!! IT'S OFF LIMITS!
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class ObjectMaker {
 

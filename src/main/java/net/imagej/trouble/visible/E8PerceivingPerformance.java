@@ -20,7 +20,7 @@ import net.imagej.trouble.hidden.StuffDoer;
 /**
  * Exercise 8: Monitoring performance of methods in real time.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E8PerceivingPerformance {
 

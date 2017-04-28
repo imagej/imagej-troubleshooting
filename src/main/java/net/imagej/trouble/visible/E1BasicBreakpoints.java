@@ -19,7 +19,7 @@ package net.imagej.trouble.visible;
  * Exercise 1: Setting breakpoints, stepping through code, and viewing variables
  * in the Debug perspective.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E1BasicBreakpoints {
 

@@ -21,7 +21,7 @@ import net.imagej.trouble.hidden.MathDoer;
  * Exercise 5: Identifying problematic changes in a code's history, when
  * standard debugging techniques are insufficient.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E5HistoricalHysteria {
 

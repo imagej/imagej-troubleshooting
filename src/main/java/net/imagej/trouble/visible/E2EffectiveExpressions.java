@@ -22,7 +22,7 @@ import net.imagej.trouble.hidden.ObjectMaker;
 /**
  * Exercise 2: Using the Expression Window in the Debug perspective.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E2EffectiveExpressions {
 

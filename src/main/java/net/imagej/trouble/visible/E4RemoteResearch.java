@@ -26,7 +26,7 @@ import org.scijava.plugin.Plugin;
  * Exercise 4: Remote debugging when a plugin behaves differently in new
  * environments.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 @Plugin(type = Command.class,
 	menuPath = "Plugins>Troubleshooting>E4 - Print ConsoleService")

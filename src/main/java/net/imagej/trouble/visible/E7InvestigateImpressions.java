@@ -21,7 +21,7 @@ import net.imagej.trouble.hidden.ObjectMaker;
  * Exercise 7: Looking for memory leaks to identify the cause of
  * {@link OutOfMemoryError} exceptions.
  *
- * @author Mark Hiner <hinerm@gmail.com>
+ * @author Mark Hiner
  */
 public class E7InvestigateImpressions {
 
