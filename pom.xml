@@ -15,15 +15,16 @@
 
 	<name>ImageJ Troubleshooting</name>
 	<description>A toy repository for practicing troubleshooting techniques described in a companion guide.</description>
-	<url>https://imagej.net/Troubleshooting_Guide</url>
-	<inceptionYear>2009</inceptionYear>
+	<url>https://imagej.net/learn/troubleshooting</url>
+	<inceptionYear>2015</inceptionYear>
 	<organization>
 		<name>ImageJ</name>
 		<url>https://imagej.net/</url>
 	</organization>
 	<licenses>
 		<license>
-			<name>Creative Commons License</name>
+			<name>CC0 1.0 Universal</name>
+			<url>https://creativecommons.org/publicdomain/zero/1.0/legalcode</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -92,10 +93,10 @@ Wisconsin-Madison.</license.copyrightOwners>
 	</repositories>
 
 	<dependencies>
-		<!-- ImageJ dependencies -->
+		<!-- SciJava dependencies -->
 		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>imagej</artifactId>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-common</artifactId>
 		</dependency>
 
 		<!-- Test dependencies -->
