@@ -1,3 +1,5 @@
+[![](https://github.com/imagej/imagej-troubleshooting/actions/workflows/build-main.yml/badge.svg)](https://github.com/imagej/imagej-troubleshooting/actions/workflows/build-main.yml)
+
 # ImageJ-Troubleshooting
 An interactive toy repository to demonstrate troubleshooting techniques.
 
